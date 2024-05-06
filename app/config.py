@@ -1,0 +1,6 @@
+import os
+
+SECRET_KEY = 'e8ca9f86-eb3b-41d0-80f1-1a61c6e1a6cb'
+SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///app.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+JWT_SECRET_KEY = "4254b825-1644-4133-ac0a-8fddbf8a7b43"
