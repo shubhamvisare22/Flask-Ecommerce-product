@@ -8,7 +8,7 @@ This repository contains a simple Flask API with JWT authentication for user reg
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Create a `.env` file with necessary environment variables.
 4. Initialize the database: `flask db init`, `flask db migrate`, `flask db upgrade`.
-5. Run the Flask application: `flask run`.
+5. Run the Flask application: `python routes.py`.
 
 ## Models
 
@@ -36,8 +36,6 @@ The `tests.py` file contains unit tests for the API endpoints.
 - **Product Update Test**: Tests updating product information.
 - **Product Deletion Test**: Tests deletion of products.
 
-Run tests with: `python -m unittest`.
+Run tests with: `python tests.py`.
 
-## License
 
-This project is licensed under the MIT License.
